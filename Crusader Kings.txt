@@ -1,0 +1,20 @@
+# Simplified version of Crusader Kings III-like game
+class CrusaderKings3:
+    def __init__(self):
+        self.characters = {"player": {"name": "Player", "dynasty": "Player Dynasty"}, "others": []}
+        self.relations = {"player": {"spouse": None, "children": [], "vassals": []}}
+
+    def marry(self, character):
+        pass
+
+    def have_children(self):
+        pass
+
+    def manage_vassals(self):
+        pass
+
+    def wage_war(self):
+        pass
+
+# Example usage:
+crusader_kings_3 = CrusaderKings3()
